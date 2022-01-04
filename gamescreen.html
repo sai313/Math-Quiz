@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="style.css">
+            
+            <title>Math Quiz</title>
+        </head>
+        <body>
+            <h1 style="text-align: center;">Math Quiz</h1>
+            <h4 id="player1"></h4>
+            <span id="player1Score"></span><br>
+            <h4 id="player2"></h4>
+            <span id="player2Score"></span><br>
+            <div class="container">
+                <center>
+                    <h3 id="plr_q"></h3>
+                    <h3 id="plr_a"></h3>
+                    <div id="output" class="col-lg-6"></div><br><br>
+                    <h4 style="font-size: 20px;">Number 1 - </h4>
+                    <input type="number" id="no1" placeholder="Number 1" class="form-control"><br><br>
+                    <h4 style="font-size: 20px;">Number 2 - </h4>
+                    <input type="number" id="no2" placeholder="Number 2" class="form-control"><br><br><br>
+                    <button class="btn btn-warning btn-lg" onclick="send()">Send</button>
+                </center>
+            </div>
+            <script src="main2.js"></script>
+        </body>
+    </html>
